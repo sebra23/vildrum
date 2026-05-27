@@ -31,7 +31,7 @@ export default function Navbar() {
   const navLinks = [
     { label: 'Shelters', to: '/products' },
     { label: 'About', to: '/about' },
-    { label: 'Journal', to: '/journal' },
+    { label: 'Blog', to: '/blog' },
     { label: 'Contact', to: '/contact' },
   ]
 
