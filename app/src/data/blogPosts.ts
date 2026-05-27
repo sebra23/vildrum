@@ -20,6 +20,281 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'inflatable-tent-maintenance-care-guide',
+    title: 'Inflatable Tent Maintenance: The Complete Care Guide for Long-Term Ownership',
+    category: 'Setup',
+    excerpt: 'Learn how to maintain your inflatable family tent for 10 to 15 years of reliable use. Step-by-step cleaning, storage, repair, and seasonal care guide for affluent families.',
+    image: '/vildrum04-f.jpg',
+    readTime: '10 min read',
+    date: 'May 2026',
+    blocks: [
+      {
+        type: 'paragraph',
+        value: 'A premium inflatable family tent represents a significant investment — typically $1,500 to $2,500 for quality models designed for affluent families. With proper care, that investment delivers 10 to 15 years of reliable service. With neglect, the same tent may degrade in half that time.'
+      },
+      {
+        type: 'paragraph',
+        value: 'The maintenance requirements are not burdensome. They are systematic. Most take minutes after each trip and a few hours annually. The return is equipment that performs consistently, retains resale value, and avoids the mid-trip failures that ruin experiences.'
+      },
+      {
+        type: 'paragraph',
+        value: 'For families who treat outdoor time as a lifestyle choice, maintenance is not a chore. It is part of the ownership experience — the care that preserves the tool that enables their outdoor life.'
+      },
+      {
+        type: 'heading',
+        value: 'After Every Trip: The Immediate Care Routine'
+      },
+      {
+        type: 'paragraph',
+        value: 'The routine after each trip prevents 80 percent of long-term problems. It takes 15 to 20 minutes.'
+      },
+      {
+        type: 'paragraph',
+        value: '• Step 1: Inspect before packing. Walk the tent interior and exterior. Look for punctures, abrasions, seam separation, or fabric damage. Check air beams for soft spots that indicate slow leaks. Identify issues while they are small and manageable.\n• Step 2: Remove debris. Shake out dirt, leaves, and sand. Brush off mud before it dries and adheres. Pay attention to zippers — grit in zipper teeth causes long-term failure. Use a soft brush or cloth to clean zipper tracks.\n• Step 3: Spot clean stains. Use mild soap — dish soap or tent-specific cleaner — and a soft sponge. Avoid harsh detergents, bleach, or abrasive scrubbers that degrade fabric coatings. Work gently on stained areas without saturating the entire tent.\n• Step 4: Partial drying. If conditions allow, air the tent for 30 minutes in sunlight before packing. This removes surface moisture from dew or light rain. It is not a substitute for full drying, but it reduces the moisture load.\n• Step 5: Pack loosely. Do not force the tent into its stuff sack with maximum compression. Fold rather than roll to reduce crease stress on fabric and air beams. Leave the pump and repair kit in the same bag for immediate access.'
+      },
+      {
+        type: 'heading',
+        value: 'Deep Cleaning: When and How'
+      },
+      {
+        type: 'paragraph',
+        value: 'Deep cleaning is necessary after 3 to 5 trips, or immediately after any trip involving heavy mud, tree sap, or prolonged exposure to salt air.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Frequency: Every 3 to 5 trips, or seasonally — whichever comes first.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Method:\n\n1. Pitch the tent in your backyard or a clean driveway.\n2. Remove loose debris with a soft brush.\n3. Mix mild soap — Nikwax Tent & Gear SolarWash or equivalent — in lukewarm water.\n4. Apply with a soft sponge or cloth, working from top to bottom.\n5. Pay attention to high-contact areas: door thresholds, zipper surrounds, groundsheet.\n6. Rinse thoroughly with clean water. Soap residue attracts dirt and degrades waterproofing.\n7. Allow to dry completely before packing.'
+      },
+      {
+        type: 'paragraph',
+        value: 'What to avoid:\n\n• Pressure washers — they force water into seams and degrade fabric coatings\n• Washing machines — mechanical action damages air beams and fabric structure\n• Harsh chemicals — bleach, ammonia, and strong detergents strip waterproofing\n• Hot water — it can deform TPU air beams and damage seam tape'
+      },
+      {
+        type: 'paragraph',
+        value: 'Waterproofing refresh: After 2 to 3 years of regular use, apply a DWR (durable water repellent) treatment to the flysheet. Nikwax Tent & Gear SolarProof or Grangers Performance Repel are proven options. Clean first, then apply to damp fabric and allow to dry.'
+      },
+      {
+        type: 'heading',
+        value: 'Drying: The Step Most Families Skip'
+      },
+      {
+        type: 'paragraph',
+        value: 'Moisture is the single greatest threat to inflatable tent longevity. It causes mold in air beams, mildew on fabric, and degradation of waterproof coatings.'
+      },
+      {
+        type: 'paragraph',
+        value: 'The rule: Never store a tent that is not completely dry. This includes the interior, exterior, groundsheet, and — critically — the air beams.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Drying method:\n\n• Pitch the tent in a shaded, ventilated area. Direct sunlight accelerates UV degradation, so shade is preferable for extended drying.\n• Open all doors, vents, and windows to maximize airflow.\n• Inflate air beams fully — this exposes interior surfaces to air circulation.\n• Allow 4 to 6 hours in dry conditions, or overnight if humidity is high.\n• Check interior surfaces by touch. Any dampness means more drying time.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Humid climates: In regions with high ambient humidity, use a fan to accelerate air circulation. Consider a garage or covered patio with active ventilation rather than relying on outdoor breezes.'
+      },
+      {
+        type: 'paragraph',
+        value: 'The cost of skipping: Mold in air beams is difficult to eradicate and often requires professional cleaning or replacement. Mildew stains are permanent. Both reduce tent value and create health concerns.'
+      },
+      {
+        type: 'heading',
+        value: 'Storage: Protecting Your Investment for Months'
+      },
+      {
+        type: 'paragraph',
+        value: 'Proper storage between trips preserves fabric integrity, air beam condition, and waterproofing performance.'
+      },
+      {
+        type: 'paragraph',
+        value: '• Location: Cool, dry, and dark. A closet, basement storage room, or garage corner works. Avoid attics with temperature extremes, damp basements, or areas with direct sunlight exposure.\n• Container: The original wheeled bag is ideal — designed for the tent\'s dimensions with adequate protection. If unavailable, a large plastic bin with loose packing works. Avoid compression that creases fabric and stresses air beams.\n• Position: Store horizontally if possible, or loosely rolled. Never store fully inflated — pressure on air beams over months can cause deformation. Never store tightly compressed — creases become permanent weak points.\n• Climate control: In humid regions, add silica gel packets or a small dehumidifier to the storage area. Check stored tents quarterly for moisture signs.\n• Pest prevention: Ensure the storage area is clean and dry. Mice and insects are attracted to food residue, not fabric, but they will damage tents incidentally while nesting.'
+      },
+      {
+        type: 'heading',
+        value: 'Air Beam Care: The Heart of Your Tent'
+      },
+      {
+        type: 'paragraph',
+        value: 'Air beams are the defining technology of inflatable family tents. Their care determines structural integrity and lifespan.'
+      },
+      {
+        type: 'paragraph',
+        value: '• Inflation pressure: Always inflate to the manufacturer\'s specified pressure — typically 7 to 9 PSI for premium family models. Under-inflation causes flexural stress and poor weather performance. Over-inflation risks seam failure or beam rupture. Use the included pressure gauge.\n• Valve maintenance: Keep valves clean and free of debris. Close them securely after deflation to prevent dirt ingress. Lubricate O-rings annually with silicone grease to maintain seal integrity.\n• Leak detection: If an air beam softens overnight, locate the leak before repair. Inflate the beam fully, then listen for escaping air or apply soapy water to seams and look for bubbles. Mark the location before deflating.\n• Beam replacement: Individual air beams are replaceable at $50 to $150. This is significantly cheaper than replacing an entire tent. Contact the manufacturer with your tent model and beam specification for ordering.'
+      },
+      {
+        type: 'heading',
+        value: 'Field Repairs: Handling Punctures and Leaks'
+      },
+      {
+        type: 'paragraph',
+        value: 'Punctures are rare because air beams sit in protective fabric sleeves away from ground contact and abrasion. But they happen. Field repair is straightforward.'
+      },
+      {
+        type: 'paragraph',
+        value: 'The repair kit: Every premium inflatable tent includes a patch kit. Contents vary but typically include:\n\n• Adhesive patches in multiple sizes\n• Tube of specialized adhesive compatible with TPU or PVC\n• Cleaning wipe or alcohol prep pad\n• Instructions specific to the tent\'s air beam material'
+      },
+      {
+        type: 'paragraph',
+        value: 'Repair process:\n\n1. Deflate the affected air beam completely.\n2. Clean the puncture area with the prep pad. Adhesive fails on dirty surfaces.\n3. Cut a patch that extends 2 cm beyond the puncture in all directions. Round the corners — square corners peel.\n4. Apply adhesive to both patch and puncture area. Allow to become tacky per instructions — usually 1 to 2 minutes.\n5. Press patch firmly, working from center to edges to eliminate air bubbles.\n6. Allow to cure. Minimum 4 hours before inflation; overnight for maximum strength.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Temporary field repair: If a puncture occurs during a trip and you lack time for full curing, use a self-adhesive patch as a temporary measure. Reinforce with proper adhesive repair at the earliest opportunity.'
+      },
+      {
+        type: 'paragraph',
+        value: 'When repair is insufficient: If an air beam has multiple punctures, large tears, or structural damage, replacement is the safer option. A compromised beam risks catastrophic failure in weather.'
+      },
+      {
+        type: 'heading',
+        value: 'Seasonal Preparation: Spring, Summer, Autumn, Winter'
+      },
+      {
+        type: 'paragraph',
+        value: 'Annual preparation ensures your tent is ready for the season ahead.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Spring preparation (before first trip):\n\n• Unpack and inspect the tent completely. Look for winter storage damage.\n• Inflate all air beams and check for slow leaks over 24 hours.\n• Test zippers, vents, and guy-out points for function.\n• Apply DWR treatment if water no longer beads on the flysheet.\n• Check and replace guy lines and stakes if worn.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Summer preparation:\n\n• Verify maximum ventilation function — all vents and mesh panels open fully.\n• Inspect UV resistance — fabric should not show brittleness or color fading.\n• Ensure cooling compatibility — space for portable fans or shade extensions.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Autumn preparation:\n\n• Verify heating compatibility for cooler evenings.\n• Check groundsheet integrity — autumn ground is wetter and more abrasive.\n• Reinforce waterproofing if heavy rain is anticipated.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Winter preparation (for 4-season models):\n\n• Inspect stove jack and heating port compatibility if applicable.\n• Verify fabric weight and insulation properties.\n• Check all seals and draft-proofing at ground level.\n• Test setup in cold conditions — valves and pumps function differently at low temperatures.'
+      },
+      {
+        type: 'heading',
+        value: 'When to Replace vs. Repair'
+      },
+      {
+        type: 'paragraph',
+        value: 'Not every issue justifies repair. Some indicate the tent has reached end of life.'
+      },
+      {
+        type: 'paragraph',
+        value: '• Repair: Single air beam puncture or leak, minor fabric abrasion or small tear, zipper failure on one door, guy line or stake replacement, DWR refresh on flysheet.\n• Replace: Multiple air beam failures indicating systemic material degradation, large fabric tears in high-stress areas (door surrounds, pole/beam sleeves), seam failure across multiple points — indicates adhesive breakdown, permanent mold or mildew infestation, fabric brittleness from UV degradation — cracks when flexed.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Resale timing: Premium inflatable family tents retain 40 to 50 percent of original value after 5 years. Selling before major degradation maximizes return. Buying new every 8 to 10 years ensures you always have current technology and full warranty coverage.'
+      },
+      {
+        type: 'heading',
+        value: 'Frequently Asked Questions'
+      },
+      {
+        type: 'paragraph',
+        value: 'How often should I clean my inflatable tent?\n\nSpot clean after every trip. Deep clean every 3 to 5 trips, or immediately after heavy soiling. DWR treatment every 2 to 3 years.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Can I use a pressure washer to clean my tent?\n\nNo. Pressure washers force water into seams, degrade fabric coatings, and can damage air beam valves. Always use gentle hand cleaning with mild soap and soft sponges.'
+      },
+      {
+        type: 'paragraph',
+        value: 'How do I know if my air beams are properly inflated?\n\nUse the pressure gauge included with your pump. The manufacturer specifies optimal pressure — typically 7 to 9 PSI. The beam should feel firm but not rock-hard. Over-inflation risks seam failure.'
+      },
+      {
+        type: 'paragraph',
+        value: 'What if I find mold in my air beam?\n\nMold in air beams is serious. Try cleaning with a diluted vinegar solution, then thorough drying. If mold persists or has caused material degradation, replace the beam. Prevention through complete drying is far easier than remediation.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Can I store my tent in the garage?\n\nYes, if the garage is cool, dry, and dark. Avoid damp garages or areas with temperature extremes. Use a storage bin if the garage environment is dusty or subject to pest activity.'
+      },
+      {
+        type: 'paragraph',
+        value: 'How long do inflatable family tents last?\n\nWith proper maintenance, 10 to 15 years of regular seasonal use. The primary limiting factor is fabric UV degradation, not air beam failure. Premium fabrics and proper storage extend lifespan toward the upper end.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Is it worth repairing a 10-year-old tent?\n\nEvaluate repair cost versus replacement value. A $100 air beam replacement on a $2,000 tent with otherwise good condition is worthwhile. A $500 multi-beam repair on a tent with fabric degradation is not — put that money toward a new tent.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Can I use regular household cleaners on my tent?\n\nNo. Harsh detergents, bleach, and ammonia strip waterproof coatings and degrade fabric. Use only mild soap or tent-specific cleaners like Nikwax or Grangers products.'
+      },
+      {
+        type: 'heading',
+        value: 'Conclusion: Maintenance Is Part of Ownership'
+      },
+      {
+        type: 'paragraph',
+        value: 'A premium inflatable family tent is not disposable equipment. It is a long-term asset that rewards care with years of reliable performance. The maintenance routine is not burdensome — it is systematic, brief, and deeply satisfying.'
+      },
+      {
+        type: 'paragraph',
+        value: 'The families who maintain their tents well camp more often, with greater confidence, and extract full value from their investment. The tent that performs reliably trip after trip becomes a trusted tool rather than a source of anxiety.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Vildrum designs inflatable family tents for families who approach ownership with the same intentionality they apply to other quality purchases. The materials, construction, and design are engineered for longevity — but longevity requires partnership. The tent does its part through quality engineering. The owner does their part through consistent care.'
+      },
+      {
+        type: 'paragraph',
+        value: 'If you are ready to invest in a shelter that will serve your family for a decade or more, explore the Vildrum collection. And when you do, follow this guide to ensure your tent delivers on its full potential, season after season.'
+      }
+    ],
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Inflatable Tent Maintenance: The Complete Care Guide for Long-Term Ownership",
+        "description": "Learn how to maintain your inflatable family tent for 10 to 15 years of reliable use. Step-by-step cleaning, storage, repair, and seasonal care guide for affluent families.",
+        "author": {
+          "@type": "Organization",
+          "name": "Vildrum"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Vildrum",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.vildrum.com/logo.png"
+          }
+        },
+        "datePublished": "2026-05-27",
+        "dateModified": "2026-05-27",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.vildrum.com/blog/inflatable-tent-maintenance-care-guide"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How often should I clean my inflatable tent?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Spot clean after every trip. Deep clean every 3 to 5 trips, or immediately after heavy soiling. DWR treatment every 2 to 3 years."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long do inflatable family tents last?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With proper maintenance, 10 to 15 years of regular seasonal use. The primary limiting factor is fabric UV degradation, not air beam failure. Premium fabrics and proper storage extend lifespan toward the upper end."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     slug: 'multi-generational-family-camping-tent-guide',
     title: 'Multi-Generational Family Camping: How the Right Tent Brings Grandparents, Parents, and Children Together',
     category: 'Field Guides',
