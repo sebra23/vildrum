@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { useSEO } from '@/hooks/useSEO'
 import HeroSection from '@/sections/home/HeroSection'
 import BrandPromiseSection from '@/sections/home/BrandPromiseSection'
 import ProductCollectionSection from '@/sections/home/ProductCollectionSection'
@@ -9,6 +10,11 @@ import SetupStatsSection from '@/sections/home/SetupStatsSection'
 import NewsletterSection from '@/sections/home/NewsletterSection'
 
 export default function Home() {
+  useSEO(
+    "VILDRUM — A room for the wild.",
+    "Inflatable Scandinavian shelters designed as portable outdoor rooms — calm, architectural, and ready in minutes."
+  )
+
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])

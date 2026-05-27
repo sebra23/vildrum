@@ -52,7 +52,14 @@ const easeSoft = [0.4, 0, 0.2, 1] as [number, number, number, number]
 /*  Products Page                                                      */
 /* ------------------------------------------------------------------ */
 
+import { useSEO } from '@/hooks/useSEO'
+
 export default function Products() {
+  useSEO(
+    "Explore Shelters — VILDRUM",
+    "Discover VILDRUM's collection of portable Scandinavian shelters. From two-person retreats to modular family spaces."
+  )
+
   useEffect(() => { window.scrollTo(0, 0) }, [])
 
   const [activeCategory, setActiveCategory] = useState('VILDRUM 04')

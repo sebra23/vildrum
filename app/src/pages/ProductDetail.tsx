@@ -162,13 +162,21 @@ const tabSpecs: Record<TabId, { label: string; value: string }[]> = {
 /*  MAIN COMPONENT                                                     */
 /* ================================================================== */
 
+import { useSEO } from '@/hooks/useSEO'
+
 export default function ProductDetail() {
   const { slug } = useParams<{ slug: string }>()
-  useEffect(() => { window.scrollTo(0, 0) }, [slug])
 
   const product = useMemo(() => {
     return productDatabase[slug || ''] || productDatabase['vildrum-04']
   }, [slug])
+
+  useSEO(
+    `${product.name} — VILDRUM`,
+    product.description
+  )
+
+  useEffect(() => { window.scrollTo(0, 0) }, [slug])
 
   return (
     <div>
