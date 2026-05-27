@@ -20,6 +20,249 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'backyard-glamping-luxury-outdoor-retreat-guide',
+    title: 'Backyard Glamping: How Affluent Families Are Creating Luxury Outdoor Retreats at Home',
+    category: 'Field Guides',
+    excerpt: 'Discover how affluent families are transforming their backyards into private glamping retreats. Step-by-step guide to setup, interior design, and creating hotel-level outdoor experiences without leaving home.',
+    image: '/retreat-1.jpg',
+    readTime: '10 min read',
+    date: 'May 2026',
+    blocks: [
+      {
+        type: 'paragraph',
+        value: 'The global glamping market is projected to reach $9.78 billion by 2034, growing at 10.6 percent annually. Europe leads with 35.3 percent market share, and the 33-to-50 age group — affluent families with children — represents the highest-spend-per-person demographic.'
+      },
+      {
+        type: 'paragraph',
+        value: 'But the most interesting segment is not commercial glamping sites. It is private glamping — families creating luxury outdoor experiences on their own property. And the gateway to private glamping is the backyard.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Backyard glamping removes every barrier that prevents families from camping more often:\n\n• No travel time. The experience starts when you walk out the door, not after a two-hour drive.\n• No booking constraints. No availability calendars, no check-in times, no shared facilities.\n• No packing anxiety. Forgot the pillows? Walk to the bedroom. Need more ice? The kitchen is 20 meters away.\n• No weather risk. If conditions turn, the house is right there. This psychological safety encourages families to try glamping who would never risk a remote trip.\n• Full customization. Every element — lighting, bedding, music, food — is exactly what your family prefers, not what a commercial site provides.'
+      },
+      {
+        type: 'paragraph',
+        value: 'For affluent families with limited weekend time, backyard glamping transforms a Friday evening from "should we drive somewhere?" to "let\'s set up the tent after dinner." The barrier drops from logistical planning to simple execution.'
+      },
+      {
+        type: 'heading',
+        value: 'What You Actually Need to Glamp in Your Backyard'
+      },
+      {
+        type: 'paragraph',
+        value: 'The equipment list is shorter than most families assume. The key is quality over quantity.'
+      },
+      {
+        type: 'paragraph',
+        value: '• The shelter. One premium inflatable family tent with standing height, weatherproof construction, and interior space for defined zones. This is the foundation that enables everything else.\n• The sleep system. Real bedding, not sleeping bags. High-thread-count sheets, down or synthetic duvet, proper pillows. An elevated air mattress or camp bed that gets you off the ground.\n• The living space. Modular seating — floor cushions, low chairs, or a daybed. A low table for dining and games. A rug that defines the zone and adds warmth.\n• The lighting. Layered sources — ambient string lights, task lighting for reading, accent candles or LED equivalents. Warm color temperature, 2700K.\n• The climate control. Portable heating for cool evenings. Battery-powered cooling or shade for warm afternoons. The ability to manage temperature makes backyard glamping viable across more of the year.\n• The dining setup. A portable grill or outdoor kitchen station. Real tableware, not disposable. A cooler or mini-fridge for beverages and ingredients.\n• The entertainment. Bluetooth speaker, outdoor games, a projector for film nights. The backyard has infrastructure that remote campsites lack — power, Wi-Fi, delivery access.'
+      },
+      {
+        type: 'heading',
+        value: 'The Shelter: Why an Inflatable Tent Changes Everything'
+      },
+      {
+        type: 'paragraph',
+        value: 'The tent is not one element of the backyard glamping experience. It is the room you are creating outdoors. And the technology of that room determines whether the experience feels luxurious or improvised.'
+      },
+      {
+        type: 'paragraph',
+        value: '• Setup speed. An inflatable family tent pitches in 8 to 12 minutes with one person. Compare this to 30 to 40 minutes for a pole tent, and the difference is not just time. It is the difference between "let\'s do this tonight" and "let\'s plan for tomorrow."\n• Interior volume. Without rigid pole angles, air beam tents maximize usable floor space and headroom. A family of four needs 200-plus square feet to live comfortably, not just sleep. Standing height throughout creates the psychological feeling of a room, not a shelter.\n• Weather confidence. Premium inflatable tents use 300D-plus Oxford polyester with hydrostatic head ratings of 5,000mm or higher. If the weather turns overnight, the family stays dry and comfortable. The psychological safety of weatherproofing encourages families to try backyard glamping in conditions they would avoid with lesser equipment.\n• Design quality. Scandinavian-designed inflatable shelters use clean lines and neutral tones that look intentional in a landscaped backyard. They do not look like camping equipment dropped on a lawn. They look like architecture that belongs.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Vildrum designs inflatable family tents specifically for this use case: families who want to create boutique hotel-level outdoor accommodation in their own outdoor space, without the boutique hotel price or schedule.'
+      },
+      {
+        type: 'heading',
+        value: 'Interior Design for a Boutique Hotel Experience'
+      },
+      {
+        type: 'paragraph',
+        value: 'The difference between backyard camping and backyard glamping is intentionality. Every element should feel chosen, not improvised.'
+      },
+      {
+        type: 'paragraph',
+        value: '• Color palette. Base layers in warm neutrals — sand, stone, oatmeal — that complement natural surroundings and landscaping. Accent with deep forest green, terracotta, or muted navy in textiles. Avoid bright primary colors that disrupt the aesthetic.\n• Textiles. Natural fibers only. Linen and cotton for bedding. Wool for throws and blankets. A large flat-weave rug defines the living zone and adds warmth underfoot. The tactile quality signals quality as much as the visual.\n• Bedding. Hotel-level standards. High-thread-count sheets, a proper duvet with weight appropriate to the season, pillows that match home quality. An elevated air mattress or camp bed prevents the ground-cold transfer that makes outdoor sleeping uncomfortable.\n• Furniture. Modular, packable pieces that create defined zones. A low table and floor cushions for the living area. A separate dining setup. Lightweight does not mean flimsy — invest in pieces that feel solid and look considered.\n• Storage. Built-in organization that keeps the space clutter-free. The tent should feel like a curated room, not a storage container with sleeping space.'
+      },
+      {
+        type: 'heading',
+        value: 'Setup That Takes 15 Minutes, Not 2 Hours'
+      },
+      {
+        type: 'paragraph',
+        value: 'The setup process should be fast enough that it disappears into the arrival experience. Here is the sequence:'
+      },
+      {
+        type: 'paragraph',
+        value: '1. Choose a level area of the lawn or patio. Lay out a groundsheet or footprint if the surface requires protection.\n2. Position the inflatable shelter and connect the pump to the inflation valve.\n3. Inflate main beams to specified pressure — typically 7 to 9 PSI for premium family models.\n4. Stake corners and tension guy-out points. In a backyard, soft ground stakes or weighted anchors work depending on surface.\n5. Interior setup: sleeping arrangements, lighting zones, storage organization, textile placement.\n6. Final touches: ambient lighting activation, climate control placement, dining setup, personal items.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Experienced users complete this in 10 to 15 minutes. The first time may take 20. Either way, the experience begins before the sun sets, not after an hour of assembly frustration.'
+      },
+      {
+        type: 'heading',
+        value: 'Creating the Atmosphere: Lighting, Sound, and Scent'
+      },
+      {
+        type: 'paragraph',
+        value: 'Atmosphere transforms a tent in a backyard into a retreat. Three elements create it:'
+      },
+      {
+        type: 'paragraph',
+        value: '• Lighting. Layer three types. Ambient string lights or battery-powered lanterns at 2700K for warm glow. Task lighting for reading and dining. LED candles in hurricane holders for accent and atmosphere. Never rely on a single overhead source. The backyard has the advantage of existing landscape lighting — use it.\n• Sound. A Bluetooth speaker with a playlist curated for the evening. Nature sounds if the actual environment is too urban. The key is intentionality — music chosen for the moment, not background noise.\n• Scent. Outdoor-appropriate candles or diffusers. Citronella for insect management in summer. Wood smoke from a fire pit or grill in autumn. The scent layer is often overlooked but deeply influential on memory and mood.'
+      },
+      {
+        type: 'heading',
+        value: 'Food and Dining: The Outdoor Kitchen Setup'
+      },
+      {
+        type: 'paragraph',
+        value: 'Backyard glamping has a unique advantage: the kitchen is nearby but the dining is outdoors. This hybrid creates flexibility that remote camping cannot match.'
+      },
+      {
+        type: 'paragraph',
+        value: '• The grill or outdoor kitchen. A portable gas grill, charcoal setup, or even a pizza oven. The backyard allows equipment that would be impractical to transport.\n• The table setting. Real tableware, not disposable. Linen napkins, proper glasses, candles. The dining experience should mirror a restaurant patio, not a picnic.\n• The menu. Take advantage of kitchen proximity for preparation, but serve and eat outdoors. Multi-course meals become feasible. Wine pairing becomes possible. The backyard removes the constraints that simplify remote camping menus.\n• The morning. Coffee prepared indoors, served in the tent. Breakfast cooked on the grill or brought from the kitchen. The luxury is choice, not compromise.'
+      },
+      {
+        type: 'heading',
+        value: 'Activities That Make Backyard Glamping Memorable'
+      },
+      {
+        type: 'paragraph',
+        value: 'The activity list depends on family composition and ages, but the principle is consistent: use the backyard\'s unique advantages.'
+      },
+      {
+        type: 'paragraph',
+        value: '• Film nights. A portable projector and screen, or simply a white sheet. The backyard becomes an outdoor cinema with home-comfort infrastructure.\n• Stargazing. Away from city lights, or with a stargazing app that identifies constellations. The tent provides warmth when the evening cools.\n• Games. Lawn games during daylight — croquet, bocce, badminton. Card or board games in the tent after dark. The backyard has space that hotel rooms lack.\n• Fire rituals. A fire pit or chiminea for evening gathering. Marshmallow toasting, storytelling, music. The fire becomes the focal point that draws the family together.\n• Morning rituals. Yoga on the lawn. Coffee in the tent as the sun rises. Breakfast cooked outdoors. The backyard allows a slow morning without checkout pressure.'
+      },
+      {
+        type: 'heading',
+        value: 'Seasonal Backyard Glamping: From Spring to Winter'
+      },
+      {
+        type: 'paragraph',
+        value: 'Backyard glamping is not a summer-only activity. The right shelter and preparation extend it across all seasons.'
+      },
+      {
+        type: 'paragraph',
+        value: '• Spring. Focus on awakening landscapes — early flowers, returning birds. Add portable heating for crisp mornings. The backyard\'s proximity to the house makes spring glamping low-risk if weather turns.\n• Summer. Long evenings, warm nights, al fresco dining. Add battery-powered cooling or shade extensions. Insect management becomes the primary challenge — citronella, mesh panels, and strategic lighting help.\n• Autumn. Color changes, harvest flavors, fire pit evenings. Heavier textiles, fire-safe heating, and warm lighting transform the interior. The backyard\'s tree canopy becomes the main visual feature.\n• Winter. Frost-covered mornings, clear night skies, hot chocolate rituals. Insulated sleeping pads, safe heating systems, and layered bedding are essential. Four-season inflatable shelters with stove compatibility make winter backyard glamping genuinely comfortable.'
+      },
+      {
+        type: 'heading',
+        value: 'Frequently Asked Questions'
+      },
+      {
+        type: 'paragraph',
+        value: 'How do I know what size tent my family needs?\n\nPlan for 50 to 60 square feet per person for comfortable living. A family of four needs 200-plus square feet of interior space, plus vestibule area. Prioritize interior height over floor area alone.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Do I need a special tent for backyard glamping?\n\nNo. The same premium inflatable family tent used for wilderness trips works perfectly in a backyard. The advantage is setup speed and interior comfort — features that matter as much at home as in remote locations.'
+      },
+      {
+        type: 'paragraph',
+        value: 'How do I power lighting and devices in the backyard?\n\nExtension cords from the house, battery-powered lanterns, or solar-charged power stations. The backyard\'s proximity to home infrastructure is one of its primary advantages over remote camping.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Is backyard glamping just camping with better marketing?\n\nNo. The distinction is intentionality and comfort level. Backyard glamping uses hotel-quality bedding, curated lighting, real dining, and design-conscious interiors. It is the experience of a boutique hotel, created on your own property.'
+      },
+      {
+        type: 'paragraph',
+        value: 'How do I keep insects out of the tent?\n\nClose mesh panels promptly after entry. Use citronella candles or diffusers outside the tent. Position lighting away from entry points to avoid attracting insects to the door. A well-sealed premium tent with quality zippers and mesh is the primary defense.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Can I leave the tent set up in my backyard long-term?\n\nNot recommended. UV exposure degrades fabric over time, even with UV-resistant treatment. Rain and moisture create mold risk in air beams. Set up for the experience, then clean, dry, and store properly. For semi-permanent structures, consider dedicated gazebo or pavilion options.'
+      },
+      {
+        type: 'paragraph',
+        value: 'What if the weather turns bad overnight?\n\nThe house is right there. This is the primary psychological advantage of backyard glamping. Families try it in marginal weather because the safety net exists. Over time, confidence with the shelter grows and weather becomes less of a decision factor.'
+      },
+      {
+        type: 'paragraph',
+        value: 'How do I make backyard glamping feel special for children?\n\nCreate rituals — special bedtime stories in the tent, outdoor breakfast traditions, stargazing with apps that identify constellations. The novelty of sleeping outdoors in familiar surroundings is inherently exciting for children. Enhance it with intentional activities rather than expensive additions.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Is backyard glamping cheaper than booking a commercial glamping site?\n\nYes, dramatically. A commercial glamping site costs $250 to $800 per night. Backyard glamping requires the initial tent investment and minimal ongoing costs. For families who glamp regularly, ownership pays for itself within the first season.'
+      },
+      {
+        type: 'heading',
+        value: 'Conclusion: Your Backyard Is Undervalued'
+      },
+      {
+        type: 'paragraph',
+        value: 'Most affluent families underutilize their outdoor space. They landscape it, maintain it, and view it from windows — but rarely inhabit it with the intentionality they apply to interior rooms.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Backyard glamping changes this. It transforms the lawn from a visual feature into a functional living space. It creates experiences without travel logistics. It builds outdoor confidence that extends to remote trips later.'
+      },
+      {
+        type: 'paragraph',
+        value: 'The foundation is the shelter. A premium inflatable family tent with rapid setup, weatherproof construction, and interior space for real living creates the room that makes backyard glamping possible. Everything else — design, dining, atmosphere, activities — builds on that foundation.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Vildrum designs inflatable family tents for families who treat outdoor time as a lifestyle investment, whether that outdoor time is in the Swedish archipelago or their own backyard. Scandinavian design principles, sub-15-minute setup, and weatherproof construction create shelters that turn any landscape into a private retreat.'
+      },
+      {
+        type: 'paragraph',
+        value: 'If you are ready to unlock the full value of your outdoor space and create luxury experiences without leaving home, explore the Vildrum collection and start your backyard glamping journey.'
+      }
+    ],
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Backyard Glamping: How Affluent Families Are Creating Luxury Outdoor Retreats at Home",
+        "description": "Discover how affluent families are transforming their backyards into private glamping retreats. Step-by-step guide to setup, interior design, and creating hotel-level outdoor experiences without leaving home.",
+        "author": {
+          "@type": "Organization",
+          "name": "Vildrum"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Vildrum",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.vildrum.com/logo.png"
+          }
+        },
+        "datePublished": "2026-05-27",
+        "dateModified": "2026-05-27",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.vildrum.com/blog/backyard-glamping-luxury-outdoor-retreat-guide"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do I need a special tent for backyard glamping?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The same premium inflatable family tent used for wilderness trips works perfectly in a backyard. The advantage is setup speed and interior comfort — features that matter as much at home as in remote locations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is backyard glamping cheaper than booking a commercial glamping site?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, dramatically. A commercial glamping site costs $250 to $800 per night. Backyard glamping requires the initial tent investment and minimal ongoing costs. For families who glamp regularly, ownership pays for itself within the first season."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     slug: 'how-to-choose-inflatable-family-tent-buying-guide',
     title: 'How to Choose the Right Inflatable Family Tent: A Size, Season, and Feature Buying Guide',
     category: 'Field Guides',
