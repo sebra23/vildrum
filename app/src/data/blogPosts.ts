@@ -19,6 +19,117 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'inflatable-tent-vs-pole-tent-family-comparison',
+    title: 'Inflatable Tent vs. Pole Tent: What Affluent Families Need to Know Before Buying',
+    category: 'Design',
+    excerpt: 'Inflatable tent vs. pole tent: a direct comparison for families who camp regularly. See how setup time, weather performance, durability, and long-term value differ — and which technology wins for luxury outdoor living.',
+    image: '/brand-story-workshop.jpg',
+    readTime: '10 min read',
+    date: 'May 2026',
+    blocks: [
+      {
+        type: 'paragraph',
+        value: 'If your family camps three or more times per year, you have probably asked this question: should we buy an inflatable tent or stick with a traditional pole tent?'
+      },
+      {
+        type: 'paragraph',
+        value: 'The answer depends on what you value. Not what you say you value — what actually determines whether you camp more often, enjoy the experience, and return home without frustration.'
+      },
+      {
+        type: 'paragraph',
+        value: 'This comparison breaks down the real differences between inflatable tents and pole tents for families who treat outdoor time as an intentional lifestyle choice, not an occasional budget activity.'
+      },
+      {
+        type: 'heading',
+        value: 'Setup Time: The Most Underrated Factor'
+      },
+      {
+        type: 'paragraph',
+        value: 'Setup time is the single biggest practical difference between the two technologies. It is also the factor families underestimate when buying. Pole tents take 20 to 40 minutes for a family-sized model and require two people for efficient assembly. Inflatable tents take 8 to 12 minutes with one person. Lay it out, attach the pump, inflate, stake, done. The structure self-supports as air beams pressurize.'
+      },
+      {
+        type: 'paragraph',
+        value: 'For families with young children, this difference is transformative. Less setup time means more time for the actual experience. Parents know the scene: arriving after a long drive, hungry children, fading light, and a bag of poles that must be decoded. An inflatable tent removes that friction entirely.'
+      },
+      {
+        type: 'quote',
+        value: 'Over a season of six weekend trips, an inflatable tent saves approximately 4.6 hours of setup and pack-down time. For busy families, those hours represent genuine relaxation, not preparation stress.'
+      },
+      {
+        type: 'heading',
+        value: 'Weather Performance: Counterintuitive Results'
+      },
+      {
+        type: 'paragraph',
+        value: 'Most people assume pole tents are more weatherproof because they look more rigid. The opposite is often true. Air beams flex and rebound under gust pressure, absorbing energy rather than resisting it. Rigid poles transfer force directly to fabric and stakes. In sustained winds, air beam structures typically outperform pole tents because they adapt rather than resist.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Seamless air beam construction also eliminates the stress points where pole sleeves meet fabric — common leak locations in traditional tents. Premium inflatable family tents use 300D-plus Oxford polyester with hydrostatic head ratings of 5,000mm or higher, well above the 2,000mm baseline most pole tents offer.'
+      },
+      {
+        type: 'heading',
+        value: 'Durability and Longevity'
+      },
+      {
+        type: 'paragraph',
+        value: 'Both technologies last when built well. Fiberglass poles degrade from flexing and UV exposure. Aluminum poles can bend permanently. Air beams are protected by fabric sleeves, making punctures rare and easy to patch. Inflatable tents typical lifespan: 10 to 15 years with proper care.'
+      },
+      {
+        type: 'heading',
+        value: 'Interior Space and Liveability'
+      },
+      {
+        type: 'paragraph',
+        value: 'Pole tents have rigid pole angles that create dead zones, meaning usable interior volume is less than the footprint suggests. Inflatable tents have air beams that maximize floor space and headroom. Standing height extends across a larger percentage of the interior, meaning parents do not crouch and children have room to play.'
+      },
+      {
+        type: 'heading',
+        value: 'Total Cost of Ownership'
+      },
+      {
+        type: 'table',
+        value: 'Cost Comparison.',
+        tableHeaders: ['Cost Factor', 'Premium Inflatable Tent', 'Premium Pole Tent'],
+        tableRows: [
+          ['Initial purchase', '$1,500–$2,500', '$400–$800'],
+          ['Replacement parts', 'Air beam: $50–$150', 'Poles: $30–$100'],
+          ['Setup time value (30 trips over 5 years)', '6 hours saved', '—'],
+          ['Resale value (Year 5)', '40–50% of original', '20–30% of original'],
+          ['Cost per night (Year 3+)', '$12–$20', '$22–$44']
+        ]
+      },
+      {
+        type: 'heading',
+        value: 'When a Pole Tent Still Makes Sense'
+      },
+      {
+        type: 'paragraph',
+        value: 'Pole tents remain the better choice for occasional use (once a year), weight-critical travel (backpacking or bikepacking), or extreme alpine mountaineering where minimal structure and weight are essential.'
+      },
+      {
+        type: 'heading',
+        value: 'Frequently Asked Questions'
+      },
+      {
+        type: 'paragraph',
+        value: 'Are inflatable tents less durable than pole tents? No. With proper care, premium inflatable tents last 10 to 15 years — comparable to or longer than quality pole tents. The primary maintenance requirement is dry storage between trips.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Can one person set up a family-sized inflatable tent? Yes. Most premium 4-to-6-person inflatable shelters are designed for single-person setup in 8 to 12 minutes.'
+      },
+      {
+        type: 'heading',
+        value: 'Conclusion: Make the Decision Once'
+      },
+      {
+        type: 'paragraph',
+        value: 'If you camp regularly, value time over money, and expect outdoor experiences to match your indoor comfort standards, an inflatable tent is the logical long-term investment. Vildrum designs inflatable family tents that remove friction and replace it with space, comfort, and Scandinavian design intentionality.'
+      }
+    ]
+  },
+  {
     slug: 'private-glamping-experience-family-guide',
     title: 'How to Create a Private Glamping Experience Your Family Will Actually Want to Repeat',
     category: 'Field Guides',
@@ -191,7 +302,7 @@ export const blogPosts: BlogPost[] = [
           ['Air beam pressure', 'Structural rigidity and wind resistance', '7-9 PSI'],
           ['Peak height', 'Comfort and movement freedom', "2.2m+ (7'2\"+)"],
           ['Floor dimensions', 'Liveable space for family + gear', '200+ sq ft for 4-person families'],
-          ['Ventilation system', 'Condensation management and climate control', 'Multiple adjustable vents with mesh panels'],
+          ['Keep air ventilation', 'Condensation management and climate control', 'Multiple adjustable vents with mesh panels'],
           ['Pump inclusion', 'Setup convenience', 'Dual-action pump with pressure gauge included'],
           ['Packed weight', 'Transport practicality', 'Under 25kg for 4-person models with wheeled bag']
         ]
@@ -207,11 +318,11 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'table',
         value: 'Cost Comparison.',
-        tableHeaders: ['Cost Factor', 'Premium Inflatable Tent', 'Mid-Range Pole Tent'],
+        tableHeaders: ['Cost Factor', 'Premium Inflatable Tent', 'Premium Pole Tent'],
         tableRows: [
           ['Initial purchase', '$1,500–$2,500', '$400–$800'],
           ['Replacement parts', 'Air beam: $50–$150', 'Poles: $30–$100'],
-          ['Setup time value (30 trips)', '6 hours saved', '—'],
+          ['Setup time value (30 trips over 5 years)', '6 hours saved', '—'],
           ['Resale value (Year 5)', '40–50% of original', '20–30% of original'],
           ['Cost per night (Year 3+)', '$12–$20', '$22–$44']
         ]
@@ -364,7 +475,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        value: 'Once fully inflated, tighten the corner stakes. Secure the reflective Dyneema guylines if wind is expected. Adjust the tension buckles so the fabric panels are taut and free of creases. Open the door, zip back the mesh panels, and step inside your portable Scandinavian room.'
+        value: 'Once fully inflated, tighten the corner stakes. Secure the reflective Dyneema guylines if wind is expected. Adjust the tension buckles so the fabric panels are tonal and free of creases. Open the door, zip back the mesh panels, and step inside your portable Scandinavian room.'
       }
     ]
   },
