@@ -32,6 +32,27 @@ export default function BlogPost() {
     window.scrollTo(0, 0)
   }, [slug])
 
+  // Dynamic Schema Injection for SEO
+  useEffect(() => {
+    if (!post.schemas) return
+
+    const scriptEls = post.schemas.map(schemaObj => {
+      const script = document.createElement('script')
+      script.type = 'application/ld+json'
+      script.text = JSON.stringify(schemaObj)
+      document.head.appendChild(script)
+      return script
+    })
+
+    return () => {
+      scriptEls.forEach(script => {
+        if (script.parentNode) {
+          script.parentNode.removeChild(script)
+        }
+      })
+    }
+  }, [post])
+
   useGSAP(() => {
     if (!containerRef.current) return
 

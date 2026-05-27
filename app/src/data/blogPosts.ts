@@ -15,9 +15,300 @@ export interface BlogPost {
   readTime: string
   date: string
   blocks: BlogBlock[]
+  schemas?: any[]
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'how-to-choose-inflatable-family-tent-buying-guide',
+    title: 'How to Choose the Right Inflatable Family Tent: A Size, Season, and Feature Buying Guide',
+    category: 'Field Guides',
+    excerpt: 'A practical buying guide for affluent families choosing an inflatable family tent. Learn how to size for your family, match season ratings to your calendar, and prioritize features that matter.',
+    image: '/retreat-3.jpg',
+    readTime: '11 min read',
+    date: 'May 2026',
+    blocks: [
+      {
+        type: 'paragraph',
+        value: 'Most families buy tents backwards. They start with price, then browse features, then hope the size works. The result is a tent that fits the budget but not the family, or handles summer but not autumn, or sets up in 35 minutes when they have 15.'
+      },
+      {
+        type: 'paragraph',
+        value: 'The correct sequence is different:\n\n1. Define your family\'s actual use case — how many people, how often, in what seasons, for how many days per trip.\n2. Determine the minimum specifications that serve that use case.\n3. Find tents that meet those specifications.\n4. Compare price within that qualified set.'
+      },
+      {
+        type: 'paragraph',
+        value: 'This guide walks through each step. By the end, you will have a clear decision framework that prevents the common mistakes affluent families make when buying inflatable family tents.'
+      },
+      {
+        type: 'heading',
+        value: 'Sizing: How Much Space Your Family Actually Needs'
+      },
+      {
+        type: 'paragraph',
+        value: 'Tent sizing is the most common source of buyer regret. Manufacturers label tents by "sleeps four" or "sleeps six" based on sleeping bag dimensions packed shoulder-to-shoulder. This is not how families actually camp.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Real space requirements:\n\n• Sleeping zone: 60 cm width per person minimum for comfortable sleep with real bedding. A family of four needs 2.4 meters of sleeping width, not 2.0.\n• Living zone: Separate from sleeping, with space for seating, dining, and movement during rain or evening hours. Minimum 4 square meters for a family of four.\n• Storage zone: Gear, boots, outdoor clothing, food storage. Without dedicated space, this encroaches on living and sleeping areas.\n• Vestibule: Transition space between outdoors and indoors. Prevents debris tracking, provides wet gear storage, creates thermal buffer in cold weather.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Practical formula: Plan for 50 to 60 square feet per person for a livable experience. A family of four needs 200 to 240 square feet of interior floor space, plus vestibule area. A couple with two young children needs less than a couple with two teenagers, but the baseline remains 200 square feet minimum.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Height matters as much as floor area. Peak height should be 2.2 meters or higher, with usable standing room across the majority of the floor plate. The Vango Sierra Air 500 offers 195 cm of internal peak height with a living area most adults can stand in comfortably. If parents must crouch, the tent is undersized regardless of floor dimensions.'
+      },
+      {
+        type: 'heading',
+        value: 'Season Ratings: What 3-Season and 4-Season Really Mean'
+      },
+      {
+        type: 'paragraph',
+        value: 'Season ratings are not standardized across manufacturers. Understanding what they actually indicate prevents expensive mismatches.'
+      },
+      {
+        type: 'paragraph',
+        value: '• 3-season tents: Designed for spring, summer, and autumn. Handle moderate rain, wind, and cool temperatures. Typically feature maximum ventilation for warm weather. Not suitable for snow loads or sustained freezing conditions.\n• 4-season tents: Designed for year-round use including winter. Handle snow loads, stronger winds, and temperature extremes. Feature reduced ventilation to retain heat, reinforced structures, and often heating compatibility.'
+      },
+      {
+        type: 'paragraph',
+        value: 'The misleading middle: Some manufacturers label tents "3-to-4-season" or "extended 3-season." These are marketing terms, not technical ratings. Verify specific specifications rather than relying on labels.'
+      },
+      {
+        type: 'paragraph',
+        value: 'For affluent families: If you camp 6 or more times per year and want the flexibility to extend into autumn and early winter, a true 4-season inflatable family tent is the smarter investment. The cost difference is typically 20 to 30 percent, but the usable calendar extends by 50 percent or more.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Four-season inflatable models with stove jack compatibility — like the RBM Panda Air series — now handle genuine winter conditions with canvas construction and integrated heating ports.'
+      },
+      {
+        type: 'heading',
+        value: 'Setup Speed: Why It Matters More Than You Think'
+      },
+      {
+        type: 'paragraph',
+        value: 'Setup time is the specification families underestimate when buying and overvalue after their first trip.'
+      },
+      {
+        type: 'quote',
+        value: 'A family camps 6 to 10 weekends per year. Each trip requires one setup and one pack-down. A tent that takes 35 minutes versus 12 minutes saves 46 minutes per trip. Over a season, that is 4.6 to 7.7 hours of reclaimed time.'
+      },
+      {
+        type: 'paragraph',
+        value: 'The psychology: Arriving at a campsite after a long drive, with hungry children and fading light, transforms setup from a neutral task into a stressor. The parent managing poles while children complain does not feel like the trip has begun. The parent who inflates, stakes, and pours a drink in 12 minutes feels like the experience started when the car parked.'
+      },
+      {
+        type: 'paragraph',
+        value: 'What to look for: Sub-15-minute setup times with one person. Dual-action pumps with pressure gauges. Color-coded or numbered inflation valves. Clear staking and guying instructions that do not require re-reading.'
+      },
+      {
+        type: 'paragraph',
+        value: 'The Berghaus Air 400 Nightfall completes main structure setup in roughly eight minutes — significantly faster than comparable pole alternatives. This is the standard to measure against.'
+      },
+      {
+        type: 'heading',
+        value: 'Weatherproofing: The Specs That Actually Protect You'
+      },
+      {
+        type: 'paragraph',
+        value: 'Weatherproofing specifications determine whether your family stays dry and comfortable or spends the night managing leaks and drafts.'
+      },
+      {
+        type: 'paragraph',
+        value: '• Hydrostatic head rating: Measures fabric waterproofing in millimeters of water pressure. 2,000mm is the baseline for light rain. 5,000mm handles sustained heavy rain. Premium inflatable family tents should meet or exceed 5,000mm.\n• Fabric denier: Measures fabric weight and durability. 150D is standard for lightweight tents. 300D or higher is premium, offering better abrasion resistance, UV stability, and structural integrity. For family tents used regularly, 300D is the minimum.\n• Wind resistance: Look for specific wind speed ratings, not vague claims. Air beam tents should specify maximum gust tolerance. Geodesic inflatable designs — like the Heimplanet Cave XL\'s diamond grid — offer the highest wind ratings.\n• Seam construction: Taped or welded seams prevent water ingress at the most vulnerable points. Check that the floor joins are fully sealed, not just stitched.\n• Groundsheet: A "bathtub floor" with raised edges prevents water pooling. Heavy-duty polyethylene or reinforced fabric that resists punctures from stones and debris.'
+      },
+      {
+        type: 'heading',
+        value: 'Design and Livability: The Difference Between Camping and Glamping'
+      },
+      {
+        type: 'paragraph',
+        value: 'Specifications tell you what a tent can survive. Design tells you what it feels like to live inside it.'
+      },
+      {
+        type: 'paragraph',
+        value: '• Interior zones: The best inflatable family tents create defined spaces through architecture rather than furniture placement. Sleeping quarters separated from living areas. A dining zone that does not collapse into the sleeping space when someone shifts position.\n• Standing height: Not just at the center peak, but across the majority of the floor plate. Parents should never crouch. The psychological difference between standing and stooping is the difference between a room and a crawl space.\n• Ventilation positioning: Vents at sleeping height for fresh air without draft. Windows at seated eye level for views. Mesh panels that balance insect protection with airflow. Adjustable systems that adapt from summer maximum ventilation to winter controlled circulation.\n• Entry design: Wide doors that accommodate adults carrying gear, children running in and out, and the occasional dog. Vestibules that provide transition space — somewhere to remove muddy boots without tracking debris into the living area.\n• Color and form: Neutral, natural palettes that integrate with landscapes. Clean lines without visual clutter. The tent should look intentional in photographs and feel calm inside.'
+      },
+      {
+        type: 'heading',
+        value: 'Durability and Longevity: What 10 Years of Use Looks Like'
+      },
+      {
+        type: 'paragraph',
+        value: 'A premium inflatable family tent is a long-term investment. The buying decision should account for total cost of ownership, not just purchase price.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Realistic lifespan: 10 to 15 years with proper care for premium models. The limiting factor is usually fabric degradation from UV exposure, not air beam failure.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Maintenance requirements:\n\n• Clean after each trip with mild soap and water.\n• Dry completely before storage to prevent mold in air beams.\n• Store in a cool, dry place out of direct sunlight.\n• Inspect seams and air beams annually.\n• Repair small issues immediately before they expand.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Replacement parts: Air beams are replaceable at $50 to $150. This is significantly cheaper than replacing an entire tent due to pole failure in a traditional model.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Resale value: Premium inflatable family tents retain 40 to 50 percent of original value after 5 years. Mass-market pole tents typically retain 20 to 30 percent.'
+      },
+      {
+        type: 'heading',
+        value: 'Price Tiers: What You Get at Each Level'
+      },
+      {
+        type: 'table',
+        value: 'Price Tiers Comparison Table',
+        tableHeaders: ['Tier', 'Price Range', 'What You Get', 'Best For'],
+        tableRows: [
+          ['Entry', '$500–$800', 'Basic inflatable construction, 3-season rating, standard fabrics, manual pump', 'Occasional summer campers, first-time buyers'],
+          ['Mid', '$800–$1,500', 'Improved fabrics (200D+), better ventilation, included pump with gauge, 3-to-4-season capability', 'Regular summer campers, families upgrading from pole tents'],
+          ['Premium', '$1,500–$2,500', '300D+ fabrics, true 4-season rating, heating compatibility, Scandinavian design, sub-12-minute setup', 'Regular year-round campers, affluent families prioritizing experience quality'],
+          ['Luxury', '$2,500+', 'Technical cotton or canvas, extreme weather ratings, integrated systems, bespoke options', 'Extended basecamps, professional outdoor operators, collectors']
+        ]
+      },
+      {
+        type: 'paragraph',
+        value: 'For affluent families camping 6 or more times per year, the premium tier offers the best cost-per-use over a 10-year lifespan. The 20 to 30 percent price premium over mid-tier models delivers 50 percent more usable calendar, superior comfort, and higher resale value.'
+      },
+      {
+        type: 'heading',
+        value: 'Feature Checklist: What to Verify Before Buying'
+      },
+      {
+        type: 'paragraph',
+        value: 'Use this checklist when evaluating any inflatable family tent:'
+      },
+      {
+        type: 'paragraph',
+        value: 'Structure and Setup:\n\n[ ] Setup time under 15 minutes with one person\n[ ] Dual-action pump with pressure gauge included\n[ ] Color-coded or numbered inflation valves\n[ ] Maximum air beam pressure specified (7–9 PSI for premium models)'
+      },
+      {
+        type: 'paragraph',
+        value: 'Weather Protection:\n\n[ ] Hydrostatic head rating 5,000mm or higher\n[ ] Fabric denier 300D or higher\n[ ] Specific wind speed rating, not vague claims\n[ ] Taped or welded seams throughout\n[ ] Bathtub-style groundsheet with raised edges'
+      },
+      {
+        type: 'paragraph',
+        value: 'Interior and Design:\n\n[ ] Peak height 2.2 meters or higher\n[ ] Usable standing room across majority of floor plate\n[ ] Defined sleeping and living zones\n[ ] Multiple adjustable ventilation points\n[ ] Wide entry door with vestibule space'
+      },
+      {
+        type: 'paragraph',
+        value: 'Season and Versatility:\n\n[ ] Clear 3-season or 4-season rating\n[ ] Heating compatibility for 4-season models\n[ ] UV-resistant fabric treatment\n[ ] Adequate interior volume for your family size'
+      },
+      {
+        type: 'paragraph',
+        value: 'Durability and Support:\n\n[ ] 10-year minimum expected lifespan\n[ ] Replaceable air beams available\n[ ] Manufacturer warranty terms clear\n[ ] Repair kit included'
+      },
+      {
+        type: 'heading',
+        value: 'Frequently Asked Questions'
+      },
+      {
+        type: 'paragraph',
+        value: 'How do I know what size tent my family needs?\n\nPlan for 50 to 60 square feet per person for comfortable living. A family of four needs 200-plus square feet of interior space, plus vestibule area. Prioritize interior height over floor area alone — standing room matters as much as sleeping room.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Is a 4-season tent overkill for summer camping?\n\nNo. A quality 4-season tent adapts to summer through adjustable ventilation. The structural robustness and fabric quality benefit you in all seasons. The only downside is slightly higher weight and cost, which are negligible for car-based camping.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Can I trust manufacturer season ratings?\n\nVerify specific specifications rather than relying on labels alone. Look for hydrostatic head ratings, wind speed tolerances, and heating compatibility claims. "3-to-4-season" is a marketing term, not a technical standard.'
+      },
+      {
+        type: 'paragraph',
+        value: 'How important is the included pump?\n\nCritical. A dual-action pump with pressure gauge ensures proper inflation and prevents over-pressurization that can damage air beams. Manual pumps are standard; some premium models offer electric options. Never use a compressor without pressure regulation.'
+      },
+      {
+        type: 'paragraph',
+        value: 'What is the most common mistake when buying an inflatable family tent?\n\nBuying for price rather than use case. Families who camp regularly regret undersizing, under-specifying weatherproofing, or accepting slow setup times to save 20 percent upfront. The correct tent costs more initially but delivers superior value over time.'
+      },
+      {
+        type: 'paragraph',
+        value: 'How do inflatable tents handle extreme heat?\n\nPremium models with adjustable ventilation and UV-resistant fabrics perform well in summer heat. Open all vents, use sun shade extensions, and position the tent to avoid afternoon sun exposure. The interior volume of inflatable designs allows better air circulation than cramped pole tents.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Should I buy a tent with a built-in groundsheet?\n\nYes. A sewn-in or zip-in bathtub floor prevents water ingress, debris entry, and insect intrusion. It also speeds setup by eliminating a separate groundsheet step. The weight penalty is minimal for car-based camping.'
+      },
+      {
+        type: 'paragraph',
+        value: 'When is the best time to buy a premium inflatable family tent?\n\nLate autumn and winter often see promotional pricing as manufacturers clear inventory before new season releases. However, buying in spring ensures you have the tent for peak season use. For year-round campers, timing matters less than choosing the correct specifications.'
+      },
+      {
+        type: 'heading',
+        value: 'Conclusion: Buy Once, Use for a Decade'
+      },
+      {
+        type: 'paragraph',
+        value: 'The right inflatable family tent is not the most expensive option. It is the one that matches your family\'s actual use case, serves you across all the seasons you want to camp, and removes friction rather than adding it.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Size for livability, not sleeping bag packing. Specify for weather, not optimism. Design for the experience you want to create, not the price you want to pay.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Vildrum designs inflatable family tents for families who approach this decision with the same intentionality they apply to other significant purchases. Scandinavian design principles, 4-season capability, and sub-15-minute setup create shelters that serve as the foundation for a decade of outdoor experiences.'
+      },
+      {
+        type: 'paragraph',
+        value: 'If you are ready to make the decision once and enjoy the benefits for years, explore the Vildrum collection and find the inflatable family tent that matches your family\'s size, seasonality, and standards.'
+      }
+    ],
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "How to Choose the Right Inflatable Family Tent: A Size, Season, and Feature Buying Guide",
+        "description": "A practical buying guide for affluent families choosing an inflatable family tent. Learn how to size for your family, match season ratings to your calendar, and prioritize features that matter.",
+        "author": {
+          "@type": "Organization",
+          "name": "Vildrum"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Vildrum",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.vildrum.com/logo.png"
+          }
+        },
+        "datePublished": "2026-05-27",
+        "dateModified": "2026-05-27",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.vildrum.com/blog/how-to-choose-inflatable-family-tent-buying-guide"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I know what size tent my family needs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Plan for 50 to 60 square feet per person for comfortable living. A family of four needs 200-plus square feet of interior space, plus vestibule area. Prioritize interior height over floor area alone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a 4-season tent overkill for summer camping?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. A quality 4-season tent adapts to summer through adjustable ventilation. The structural robustness and fabric quality benefit you in all seasons. The only downside is slightly higher weight and cost, which are negligible for car-based camping."
+            }
+          }
+        ]
+      }
+    ]
+  },
   {
     slug: 'year-round-family-camping-shelter-guide',
     title: 'The Complete Guide to Year-Round Family Camping: Why the Right Shelter Makes Every Season Possible',
