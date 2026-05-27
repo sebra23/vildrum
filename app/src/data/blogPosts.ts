@@ -19,6 +19,97 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'scandinavian-outdoor-design-family-shelters',
+    title: 'The Scandinavian Outdoor Design Guide: How Nordic Principles Create Better Family Shelters',
+    category: 'Design',
+    excerpt: 'Discover how Scandinavian design principles — functional minimalism, natural materials, and human-centered proportions — create inflatable family tents that feel intentional, not improvised.',
+    image: '/every-landscape.jpg',
+    readTime: '10 min read',
+    date: 'May 2026',
+    blocks: [
+      {
+        type: 'paragraph',
+        value: 'Most outdoor equipment is designed to solve a functional problem first and look acceptable second. The result is gear that works but feels utilitarian — bright colors, aggressive branding, and proportions that treat humans as cargo rather than inhabitants. Scandinavian design rejects this hierarchy, treating function and form as inseparable.'
+      },
+      {
+        type: 'paragraph',
+        value: 'For affluent families, this distinction matters. They do not buy outdoor equipment to prove they can endure discomfort. They buy it to create experiences that match their standards. A tent that looks like a temporary shelter signals compromise. A tent that looks like a considered space signals intentionality.'
+      },
+      {
+        type: 'paragraph',
+        value: 'This is why Scandinavian-designed inflatable family tents have become the preference for families who treat outdoor time as a lifestyle choice.'
+      },
+      {
+        type: 'heading',
+        value: 'The Three Pillars of Scandinavian Outdoor Design'
+      },
+      {
+        type: 'paragraph',
+        value: 'Scandinavian outdoor design rests on three principles: functional minimalism (every element serves a purpose), natural integration (colors, materials, and forms complement natural surroundings), and human-centered proportions (spaces designed for how people actually move, sit, sleep, and gather).'
+      },
+      {
+        type: 'heading',
+        value: 'Functional Minimalism: Everything Serves a Purpose'
+      },
+      {
+        type: 'paragraph',
+        value: 'In a Scandinavian-designed inflatable family tent, minimalism means intentional. The exterior has clean lines without unnecessary seams or aggressive branding. Valves, guy-out points, and ventilation are integrated into the design rather than applied as afterthoughts. The interior has defined zones suggested by structure.'
+      },
+      {
+        type: 'heading',
+        value: 'Natural Integration: Equipment That Belongs in the Landscape'
+      },
+      {
+        type: 'paragraph',
+        value: 'Scandinavian outdoor design rejects the bright, high-visibility palette that dominates mass-market camping gear. It uses base tones in sand, stone, warm gray, and forest green that exist in natural environments. Fabrics feature matte finishes that absorb light, and shapes utilize rounded edges and organic curves.'
+      },
+      {
+        type: 'heading',
+        value: 'Human-Centered Proportions: Built for Real Families'
+      },
+      {
+        type: 'paragraph',
+        value: 'The most common failure in tent design is designing for sleeping positions rather than living positions. Scandinavian design ensures: standing height (minimum 2.2 meters at peak), defined living zones separated by design, entry and exit widths that accommodate family life, and ventilation positioned for human comfort.'
+      },
+      {
+        type: 'heading',
+        value: 'The Interior Experience: From Shelter to Sanctuary'
+      },
+      {
+        type: 'paragraph',
+        value: 'The exterior design creates the first impression, but the interior design creates the experience: layered lighting (ambient, task, and accent), natural fiber textiles (linen, cotton, wool), color discipline, and climate management.'
+      },
+      {
+        type: 'heading',
+        value: 'Why Affluent Families Respond to Scandinavian Design'
+      },
+      {
+        type: 'paragraph',
+        value: 'The response is about values alignment: prioritizing quality over quantity (one excellent tent for ten years), experience over possession (setup that allows focus on family), understatement over status signaling (confident, restrained branding), and longevity over novelty.'
+      },
+      {
+        type: 'heading',
+        value: 'Frequently Asked Questions'
+      },
+      {
+        type: 'paragraph',
+        value: 'Does Scandinavian design mean minimal features? No. It means every feature serves a clear purpose. Elements present are more thoughtfully integrated and higher performing.'
+      },
+      {
+        type: 'paragraph',
+        value: 'Are Scandinavian-designed tents more expensive? Typically yes, due to higher-quality materials and more considered engineering. The cost-per-use over a 10-to-15-year lifespan is often lower than cheaper alternatives.'
+      },
+      {
+        type: 'heading',
+        value: 'Conclusion: Design Is Not Decoration'
+      },
+      {
+        type: 'paragraph',
+        value: 'Scandinavian outdoor design is a functional philosophy that produces aesthetic results as a side effect. Vildrum designs inflatable shelters that perform according to these values, creating base camps for memories that span generations.'
+      }
+    ]
+  },
+  {
     slug: 'inflatable-tent-vs-pole-tent-family-comparison',
     title: 'Inflatable Tent vs. Pole Tent: What Affluent Families Need to Know Before Buying',
     category: 'Design',
