@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --charcoal: #1A1A18;
+    --limestone: #E8E4DE;
+    --warm-white: #F6F4F1;
+    --dune: #C4BBAF;
+    --ash: #8A857D;
+    --pine: #3D4A3A;
+    --fog: #B5B5B0;
+    --sand: #D9D0C3;
+    --pine-muted: #E6EAE5;
+    --overlay: rgba(26,26,24,0.55);
+    --overlay-light: rgba(246,244,241,0.92);
+
+    --background: 40 14% 95%;
+    --foreground: 60 6% 10%;
+    --card: 40 14% 95%;
+    --card-foreground: 60 6% 10%;
+    --popover: 40 14% 95%;
+    --popover-foreground: 60 6% 10%;
+    --primary: 60 6% 10%;
+    --primary-foreground: 40 14% 95%;
+    --secondary: 36 14% 89%;
+    --secondary-foreground: 60 6% 10%;
+    --muted: 36 14% 89%;
+    --muted-foreground: 36 4% 52%;
+    --accent: 36 14% 89%;
+    --accent-foreground: 60 6% 10%;
+    --destructive: 0 40% 38%;
+    --destructive-foreground: 40 14% 95%;
+    --border: 36 8% 85%;
+    --input: 36 8% 85%;
+    --ring: 60 6% 10%;
+    --radius: 0.5rem;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: auto;
+  }
+
+  body {
+    font-family: "Geist", system-ui, sans-serif;
+    background-color: var(--warm-white);
+    color: var(--charcoal);
+  }
+
+  * {
+    @apply border-border;
+  }
+}
