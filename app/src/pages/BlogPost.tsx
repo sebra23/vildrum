@@ -95,7 +95,7 @@ export default function BlogPost() {
         {/* Back Link */}
         <div className="anim-header opacity-0 mb-8 flex justify-center">
           <Link
-            to="/blog"
+            to="/journal"
             className="inline-flex items-center gap-2 font-sans text-[12px] font-500 uppercase tracking-[0.1em] text-ash hover:text-charcoal transition-colors duration-200"
           >
             <span>&larr;</span> Back to Field Notes
@@ -221,7 +221,7 @@ export default function BlogPost() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {relatedPosts.map((rPost) => (
               <article key={rPost.slug} className="group">
-                <Link to={`/blog/${rPost.slug}`} className="block">
+                <Link to={`/journal/${rPost.slug}`} className="block">
                   <div className="aspect-[16/10] overflow-hidden bg-warm-white">
                     <img
                       src={rPost.image}
@@ -245,7 +245,7 @@ export default function BlogPost() {
 
           <div className="mt-16 flex justify-center">
             <Link
-              to="/blog"
+              to="/journal"
               className="px-6 py-3 border border-charcoal text-charcoal font-sans text-[13px] font-500 uppercase tracking-[0.08em] hover:bg-charcoal hover:text-warm-white transition-colors duration-300"
             >
               All Stories

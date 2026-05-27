@@ -14,7 +14,7 @@ const categories = ['All', 'Field Guides', 'Culture', 'Design', 'Adventure', 'Se
 
 export default function Blog() {
   useSEO(
-    "Blog — VILDRUM",
+    "Journal — VILDRUM",
     "Discover stories, design reflections, field guides, and outdoor inspiration from the VILDRUM team."
   )
 
@@ -120,7 +120,7 @@ export default function Blog() {
 
         <div className="relative z-10 w-full pb-16 md:pb-20 px-5 md:px-10 text-center">
           <span className="hero-label font-sans text-[11px] font-500 uppercase tracking-[0.12em] text-warm-white opacity-0">
-            BLOG
+            JOURNAL
           </span>
           <h1 className="hero-title font-serif text-[clamp(40px,6vw,88px)] font-400 text-warm-white leading-[0.95] tracking-[-0.025em] mt-3">
             {"Field Notes".split('').map((char, i) => (
@@ -170,7 +170,7 @@ export default function Blog() {
                     </p>
                     <div className="feat-text mt-8 opacity-0">
                       <Link
-                        to={`/blog/${featuredPost.slug}`}
+                        to={`/journal/${featuredPost.slug}`}
                         className="group inline-flex items-center gap-2 font-sans text-[14px] font-500 text-charcoal"
                       >
                         <span className="relative">
@@ -233,7 +233,7 @@ export default function Blog() {
                     transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                     className="group"
                   >
-                    <Link to={`/blog/${post.slug}`} className="block">
+                    <Link to={`/journal/${post.slug}`} className="block">
                       <div className="overflow-hidden aspect-[3/2] bg-limestone">
                         <img
                           src={post.image}
